@@ -1,6 +1,8 @@
 package com.pearl.novdev.fileio;
 
-public class StudentWithSerialize {
+import java.io.Serializable;
+
+public class StudentWithSerialize implements Serializable {
 
     private static final long serialVersionUID = 1L;
     String name;

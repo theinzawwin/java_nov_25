@@ -8,6 +8,8 @@ public class ObjectReadWriteDemo {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         readObjectFromFile();
+
+       // writeObject();
     }
 
     static void writeObject() {

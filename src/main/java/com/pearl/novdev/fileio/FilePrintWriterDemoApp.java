@@ -15,7 +15,7 @@ public class FilePrintWriterDemoApp {
         PrintWriter pw;
         try {
             pw = new PrintWriter("pw_students.txt");
-            pw.printf("%s,%d,%.2f\n", s1.getName(), s1.getAge(), s1.getAge());
+            pw.printf("%s,%d,%.2f\n", s1.getName(), s1.getAge(), s1.getGrade());
             pw.printf("%s,%d,%.2f\n", s2.getName(), s2.getAge(), s2.getGrade());
 
             pw.close();
@@ -31,7 +31,7 @@ public class FilePrintWriterDemoApp {
     static void printWriterWithFileWriter() {
         try {
             // Create FileWriter in append mode (true)
-            FileWriter fw = new FileWriter("pw_students.txt", true);
+            FileWriter fw = new FileWriter("pw_students.txt",true);
             PrintWriter pw = new PrintWriter(fw);
 
             // Append new student record

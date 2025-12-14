@@ -7,7 +7,7 @@ public class FolderMainApp {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
 
-        File folder = new File("MyFolder");
+        /*File folder = new File("MyFolder");
 
         if (folder.exists() && folder.isDirectory()) {
             File[] files = folder.listFiles();
@@ -24,6 +24,9 @@ public class FolderMainApp {
             System.out.println("Folder does not exist.");
             folder.mkdir();
         }
+
+         */
+        deleteFolder();
     }
 
     static void deleteFolder() {
